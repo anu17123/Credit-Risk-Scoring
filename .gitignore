@@ -1,15 +1,16 @@
-# Ignore Python environment
+# Ignore virtual environment folder
 credit_env/
 
-# Ignore large CSVs
-*.csv
+# Ignore Python cache files
+*.pyc
+__pycache__/
 
-# Ignore model binaries
-*.pkl
+# Ignore log files
+*.log
 
-# Ignore Jupyter checkpoints
-.ipynb_checkpoints/
+# Ignore environment variables
+*.env
 
-# Ignore OS files
-.DS_Store
-Thumbs.db
+# Ignore dataset and large files
+data/raw_loan_data.csv
+data/cleaned_loan_data.csv
