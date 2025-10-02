@@ -1,15 +1,15 @@
-# Ignore virtual environment
+# Ignore Python environment
 credit_env/
 
-# Ignore dataset files
+# Ignore large CSVs
 *.csv
 
-# Ignore model files
+# Ignore model binaries
 *.pkl
 
-# Ignore Jupyter Notebook checkpoints
+# Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Ignore system files
+# Ignore OS files
 .DS_Store
 Thumbs.db
