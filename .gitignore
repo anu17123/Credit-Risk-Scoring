@@ -1,0 +1,15 @@
+# Ignore virtual environment
+credit_env/
+
+# Ignore dataset files
+*.csv
+
+# Ignore model files
+*.pkl
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db

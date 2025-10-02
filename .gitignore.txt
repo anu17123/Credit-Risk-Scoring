@@ -1,0 +1,3 @@
+credit_env/
+data/raw_loan_data.csv
+data/cleaned_loan_data.csv
